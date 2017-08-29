@@ -94,8 +94,8 @@ se(c(5,25))
 # Based on Sampling distribution,  following are the inputs:-
 
 X=100 # (Random Sample)
-?? = 50 # (Average withdrawal)
-?? = 40 # (Standard deviation)
+μ = 50 # (Average withdrawal)
+σ = 40 # (Standard deviation)
 
 pnorm(q=10, mean=50, sd= 40, lower.tail = TRUE)
 
