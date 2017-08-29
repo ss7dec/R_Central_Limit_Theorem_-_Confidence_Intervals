@@ -55,17 +55,8 @@ pnorm(q=25, mean=22, sd= 5, lower.tail = FALSE)
 #deviation of its sampling distribution,or sometimes as an estimate of that 
 #standard deviation.
 
-#Mathematically, the standard error of the mean formula is given by:
+#Mathematically, the standard error (SE) of the mean formula is given by:
 # SE  = s / sqrt (n)  
-#  Standard Error of the Mean------
-
-# Where--------------
-
-#??M = standard error of the mean
-#?? = the standard deviation of the original distribution
-#s = the sample size
-#???N = Root of the sample size
-
 
 std <- function(x) sd(x)/sqrt(length(x))
 std(c(5,25))
